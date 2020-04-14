@@ -1,0 +1,49 @@
+.right{
+    background-color: white;
+    width: 70%;
+    float: right;
+}
+.left{
+    background-color: rgb(199, 184, 231);
+    height: auto;
+    padding-bottom: 40px;
+    width: 30%;
+    float: left;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.input_1{
+    width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    border-top-right-radius: 30px;
+    outline: none;
+}
+.color{
+    margin-left: 6px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: none;
+}
+#btn{
+    width: 300px;
+    height: 35px;
+    background-color: rgb(12, 218, 104);
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+#btn:hover{
+    background-color: rgb(21, 231, 116);
+}
+#btn:active{
+    background-color: rgb(11, 204, 98);
+}

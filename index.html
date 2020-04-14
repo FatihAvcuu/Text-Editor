@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Text Editör</title>
+  </head>
+  <body>
+    <div class="main">
+        <div class="left">
+        <h4 class="display-3" style="text-align: center;">txt editor</h4>
+        <hr>
+        <h4 class="ml-2">title</h4>
+        <center>
+        <input type="text" id="title_holder" class="input_1" style="margin-top: 1px;" placeholder="enter title">
+        <input type="number" id="title_size" class="input_1" style="width: 260px;" placeholder="enter title size">
+        <input type="color" class="color" id="title_color" name="favcolor">
+        </center>
+        <hr>
+        <h4 class="ml-2">article</h4>
+        <center>
+        <textarea style="height: 166px;" class="input_1" id="text_holder" aria-label="With textarea" placeholder="enter text" ></textarea>
+        <input type="number" class="input_1" id="text_size" style="width: 260px;" placeholder="enter text size">
+        <input type="color" id="favcolor" class="color" name="favcolor">
+        <button id="btn">apply</button>
+        </center>
+        </div>
+        <div class="right">
+          <h1 id="title" align="center"></h1>
+      
+          <div class="container"><p id="main_txt"></p></div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="script.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
